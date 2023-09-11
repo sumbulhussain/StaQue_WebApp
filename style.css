@@ -1,0 +1,122 @@
+/* Your updated CSS styles */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  margin: 50px auto;
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #333;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #313335;
+}
+
+.data-structures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stack,
+.queue {
+  width: 45%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.stack h3,
+.queue h3 {
+  color: #333;
+}
+
+.output {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 150px;
+  overflow-y: scroll;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+/* Style for the "Pop from Stack" button */
+button.pop-button {
+  padding: 10px 20px;
+  background-color: #ffc107; /* Red color */
+  color: rgb(27, 25, 25);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button.pop-button:hover {
+  background-color: #ede7e2; /* Darker red on hover */
+}
+
+/* Style for the "Dequeue from Queue" button */
+button.dequeue-button {
+  padding: 10px 20px;
+  background-color: #ffc107; /* Yellow color */
+  color: rgb(22, 21, 21);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button.dequeue-button:hover {
+  background-color: #f0ebe9; /* Darker yellow on hover */
+}
+
+/* Adjust button spacing */
+button {
+  margin: 0 10px; /* Add horizontal margin between buttons */
+}

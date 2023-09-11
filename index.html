@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stack and Queue Simulation</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Stack and Queue Simulation</h2>
+      <div class="controls">
+        <input type="text" id="inputValue" placeholder="Enter Value" />
+        <button onclick="addToDataStructures()">Add</button>
+      </div>
+      <div class="button-row">
+        <button class="pop-button" onclick="popFromStack()">
+          Pop
+        </button>
+        <button class="dequeue-button" onclick="dequeue()">
+          Dequeue
+        </button>
+      </div>
+      <div class="data-structures">
+        <div class="stack">
+          <h3>Stack (LIFO)</h3>
+          <div id="stackOutput" class="output"></div>
+        </div>
+        <div class="queue">
+          <h3>Queue (FIFO)</h3>
+          <div id="queueOutput" class="output"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
